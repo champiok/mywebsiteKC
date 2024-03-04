@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #4b0000;
+            /* Dark background color */
+            color: #ffffff;
+        }
+
+        /* Style for each section */
+        .section {
+            margin-bottom: 40px;
+        }
+
+        /* Style for each image container */
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        /* Style for each image */
+        .section-img {
+            width: 48%; /* Adjust as needed */
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            margin-top: auto;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .section {
+            animation: fadeIn 1s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="work.html">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Information</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="Playfair Display container text-white">
+        <div class="container">
+            <h1 class="display-4"><i>About Me</i></h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Hometown Section -->
+        <div class="row section">
+            <div class="col-md-6">
+                <h2><i>Where I Grew Up</i></h2>
+                <ul>
+                    <li>Most of my life, I grew up in a small town in South Jersey called Pemberton.</li>
+                    <li>This area is by Tabernacle, so it is wooded and has a lot of lakes.</li>
+                    <li>I lived with my mother and 5 siblings, 5 girls, and 1 boy in the house.</li>
+                    <li>When I was younger, we spent a lot of time outdoors; we were really active kids.</li>
+                    <li>In high school, I played 3 sports: Basketball, Tennis, and Track.</li>
+                </ul>
+            </div>
+            <div class="col-md-6 image-container">
+                <img src="images/hometown.webp" alt="Hometown" class="section-img">
+                <img src="images/about 3.jpg" alt="Hometown" class="section-img">
+            </div>
+        </div>
+
+        <!-- Enjoy Section -->
+        <div class="row section">
+            <div class="col-md-6">
+                <h2><i>The Things I Enjoy</i></h2>
+                <ul>
+                    <li>I really enjoy the outdoors. I grew up appreciating nature.</li>
+                    <li>I feel my best when I am outside, whether it's at the beach, sitting in a park, or just walking outside to get my mail.</li>
+                </ul>
+            </div>
+            <div class="col-md-6 image-container">
+                <img src="images/about 1.jpg" alt="Hobbies" class="section-img">
+                <img src="images/about 4.png" alt="Hobbies" class="section-img">
+            </div>
+        </div>
+
+        <!-- Education Section -->
+        <div class="row section">
+            <div class="col-md-6">
+                <h2><i>Education</i></h2>
+                <p>I am attending Kean University. My major is Computer Science. Currently, I am on my last semester at Kean. My anticipated graduation date is May 2024. I am very excited for my next stage in life.</p>
+            </div>
+            <div class="col-md-6 image-container">
+                <img src="images/about 5 .jpg" alt="Education" class="section-img">
+            </div>
+        </div>
+
+        <!-- Random Facts About Me -->
+        <div class="row section">
+            <div class="col-md-6">
+                <h2><i>More About Me</i></h2>
+                <ul>
+                    <li>I have a cat named Phoenix. She acts like a dog and loves going on walks.</li>
+                    <li>For fun as a hobby, I take random pictures of things I walk past and find interesting.</li>
+                    <li>My go-to place is the beach. I love swimming and I love the ocean.</li>
+                    <li>My favorite animal is Sea Turtles.</li>
+                </ul>
+            </div>
+            <div class="col-md-6 image-container">
+                <img src="images/about 6.jpg" alt="School" class="section-img">
+                <img src="images/about2.jpg" alt="School" class="section-img">
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer bg-dark text-white mt-5">
+        <div class="container">
+            <p>&copy; KC 2024</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
